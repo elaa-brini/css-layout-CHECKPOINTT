@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: work sans;
+
+}
+header img {
+    width: 250px;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+    background-color: white;
+    position: fixed;
+    
+}
+nav{
+    display: flex;
+    width: 65%;
+
+}
+nav img {
+    width: 10;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+nav li {
+    color: gray;
+    justify-content: space-between;
+}
+nav li:first-child {
+    color: #00b39b;
+}
+.making {
+ width : 65% ;
+ margin: auto;
+ text-align: center;
+ padding-top: 150px;
+}
+.making img{
+    width: 35px;
+}
+header{
+    position: sticky;
+    width: 100%;
+    background-color: white;
+}
+.paragraphs {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 50px;
+    color: gray;
+    gap: 50px;
+}
+.making h1 {
+    color:#00b39b ;
+    font-size: 40 px;
+    font-weight: 300;
+}
+
+.carts {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   gap: 25px;
+}
+.cart1 {
+    width: 33%;
+    height: 350 px;
+    border-radius: 10 px;
+    padding: 15 px;
+    background-color: #00b39b;
+    flex-direction: column;
+    padding: 25px;
+}
+.cart h1 {
+    color: white;
+    font-weight:300;
+    font-size: 20;
+}
+.cart p {
+    color: white;
+    font-size: 23 ;
+    font-weight: 300;
+}
+.cart select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18;
+    color: white;
+    align-items: baseline;
+}
+.cart option{
+    color: black;
+}
+.cart2 {
+    width: 33%;
+    height: 350 px;
+    border-radius: 10 px;
+    padding: 15 px;
+    background-color:rgb(50, 50, 172);
+    flex-direction: column;
+    padding: 25px;
+}
+.cart3 {
+    width: 33%;
+    height: 350px;
+    border-radius: 10 px;
+    padding: 15 px;
+    background-color: #333;
+    flex-direction: column;
+    padding: 25px;
+}
+.imagesdivv{
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+   
+
+}
+.imagesdivv h1 {
+    color: #00b39b;
+    font-size: 40px;
+    font-weight: 100;
+}
+.k {
+    width: 7.5rem;
+    height: 1.25rem;
+
+}
+.sponsor {
+    display: flex;
+    flex-wrap: wrap;
+   gap: 4rem;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.all{
+    background-color: #b6eee6;
+    height: 650px;
+    position: relative;
+}
+.smallall {
+    display: flex;
+    gap: 5%;
+}
+.all h1{
+    color: #00b39b;
+  
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 300;
+}
+.text {
+    width: 45%;
+   padding: 50px; 
+   text-align: center;
+}
+.text p {
+    font-size: 15px;
+
+}
+.text img{
+    position: absolute;
+    margin: 100px;
+    right: 600px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    background-color: white;
+    margin: 20px 10px;
+    text-align: center;
+    padding: 15px;
+    height: 45%;
+    justify-content: center;
+}
+.card p {
+    font-size: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.improve{
+    width: 35%;
+    margin: 0 auto;
+    padding: 50;
+}
+.improve h1 {
+    color: #00b39b;
+    text-align: center;
+    font-weight: 300;
+}
+.improve p {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+.places{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.place{
+    width: 30%;
+    border: rgb(196, 189, 189);
+}
+.place:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.place img{
+width: 100%;
+}
+.places span {
+font-weight: 400;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+.sounds {
+    text-align: center;
+ padding: 50px;
+}
+.sounds h1 {
+    color: #00b39b;
+    font-weight: 300;
+}
+   footer p {
+    text-align: center;
+   } 
+   footer a {
+    text-decoration: none;
+    color: blue;
+   }
+   footer{
+    font-size: 12px;
+   }
